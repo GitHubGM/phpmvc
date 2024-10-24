@@ -5,9 +5,10 @@
     <title>Document</title>
 </head>
 <body>
+
     <?php 
     include 'dbconnectController.php';
-    
+    $db->query("INSERT INTO `users`(`name`, `email`, `mobile`) VALUES ('John Doe','')");
     
     echo "Hello"   ?>
 </body>

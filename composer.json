@@ -3,7 +3,7 @@
     "description": "Testing mvc by making crud using pure php",
     "autoload": {
         "psr-4": {
-            "Nomercy\\Phpmvccrud\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [

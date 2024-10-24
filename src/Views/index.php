@@ -1,3 +1,7 @@
-<?php
+list of users:
+<ul>
+    <?php foreach ($users as $user): ?>
+    <li><?= $user->name ?> (<?= $user->email ?>)</li>
+</ul>
 
-echo "Testing the PHP MVC CRUD application";
+<?php endforeach; ?>

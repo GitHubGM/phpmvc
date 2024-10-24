@@ -1,0 +1,16 @@
+{
+    "name": "nomercy/phpmvccrud",
+    "description": "Testing mvc by making crud using pure php",
+    "autoload": {
+        "psr-4": {
+            "Nomercy\\Phpmvccrud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GitHubGM",
+            "email": "galok0211@gmail.com"
+        }
+    ],
+    "require": {}
+}
